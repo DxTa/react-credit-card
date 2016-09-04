@@ -12,11 +12,11 @@ class CardUI extends React.Component {
                             <div className="ds-payment-shiny"></div>
                             <div className="ds-payment-flags"></div>
                             <div className="ds-payment-card-number ds-payment-card-display">{this.props.CardNumber ? this.props.CardNumber : '•••• •••• •••• ••••'}</div>
-                            <div className="ds-payment-card-name ds-payment-card-display">{this.props.HolderName ? this.props.HolderName : 'NOME COMPLETO'}</div>
+                            <div className="ds-payment-card-name ds-payment-card-display">{this.props.HolderName ? this.props.HolderName : 'FULL NAME'}</div>
                             <div className="ds-payment-card-expireCVV ds-payment-card-display">{this.props.CvvNumber}</div>
                             <div className="ds-payment-card-expiry ds-payment-card-display">
-                                <b>Válido até</b>
-                                {this.props.CCexpiry ? this.props.CCexpiry : 'MM/AA'}
+                                <b>Valid until</b>
+                                {this.props.CCexpiry ? this.props.CCexpiry : 'MM/YY'}
                             </div>
                         </div>
                     </div>

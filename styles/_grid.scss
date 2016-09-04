@@ -107,7 +107,7 @@
 // Grid
 //---------------------------------------------------------------------------
 .grid-container {
-    @extend %clearfix;
+    // @extend %clearfix;
 
     max-width: $grid-width;
 
