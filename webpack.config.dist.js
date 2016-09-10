@@ -20,10 +20,10 @@ module.exports = {
     ]
   },
 
-  externals: {
-    react: 'React'
+  // externals: {
+    // react: 'React'
     // 'react-dom': 'ReactDOM'
-  },
+  // },
 
   output: {
     filename: 'dist/react-credit-card.js',
